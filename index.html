@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tetsuugaku（てつーがく）</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        window.addEventListener('load', function () {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register("service-worker.js")
+                    .then(function (registration) {
+                        console.log("serviceWorker registed.");
+                    }).catch(function (error) {
+                        console.warn("serviceWorker error.", error);
+                    });
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1><img src="logo.png" alt="ロゴ画像"></h1>
+    </header>
+    <main>
+    <div>
+        <h2>tetsuugaku(てつーがく)とは</h2>
+
+    </div>
+    <div>
+        <h2>教材一覧</h2>
+            <div>
+                <h3>中1</h3>
+                <ul>
+                    <li><a href="./1/1.html">正の数・負の数</a></li>
+                    <li>文字式</li>
+                    <li>方程式</li>
+                    <li>関数</li>
+                    <li>平面図形</li>
+                    <li>立体図形</li>
+                    <li>資料の活用</li>
+                </ul>
+            </div>
+            <div>
+                <h3>中2</h3>
+            </div>
+            <div>
+                <h3>中3</h3>
+            </div>
+    </div>
+    </main>
+    <footer>Copyright © tetsuugaku All rights reserved.</footer>
+
+    
+</body>
+</html>

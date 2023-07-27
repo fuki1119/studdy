@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#question-container {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#question {
+    margin-top: 0;
+}
+
+#choices {
+    list-style: none;
+    padding: 0;
+}
+
+.choice {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #ddd;
+}
