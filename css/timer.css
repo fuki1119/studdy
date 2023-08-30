@@ -96,7 +96,8 @@ button {
     .section-container {
         gap: 1.3em;
         position: absolute;
-        top: -50%;
+        top: -40%;
+        z-index: 99999;
     }
     .time-btn-container{
         margin-top: 0;
