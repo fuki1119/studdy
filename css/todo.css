@@ -47,7 +47,7 @@ button{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/img/unchecked.png);
+    background-image: url(./img/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -58,7 +58,7 @@ button{
     text-decoration: line-through;
 }
 .todo-app ul li.checked::before{
-    background-image: url(/img/checked.png);
+    background-image: url(./img/checked.png);
 }
 .todo-app ul li span{
     position: absolute;
