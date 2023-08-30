@@ -78,7 +78,9 @@ button{
 
 /*tablet*/
 @media screen and (max-width: 1000px) {
-
+    .todo-app ul li span{
+        left: 100%;
+    }
 }
 
 /*mobile*/
@@ -88,5 +90,8 @@ button{
     }
     .row{
         width: 250px;
+    }
+    .todo-app ul li span{
+        left: 450%;
     }
 }
