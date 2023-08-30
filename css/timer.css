@@ -91,6 +91,7 @@ button {
     .container {
         width: min(90%, 500px);
         height: min(250px);
+        top: 65%;
     }
     .section-container {
         gap: 1.3em;
