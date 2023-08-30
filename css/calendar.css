@@ -486,4 +486,6 @@ body {
   .right .today-date {
     padding: 20px;
   }
+  .calendar .month {
+    padding: 0 20px;
 }
