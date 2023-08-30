@@ -113,11 +113,13 @@ button {
     }
     .explain{
         font-size: 1px;
+        color: var(--sub-text1);
     }
     .mode-img .moon, .mode-img .sun {
         left: 650%;
     }
     .bgm{
         display: none;
+        color: var(--main-text);
     }
 }
