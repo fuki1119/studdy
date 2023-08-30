@@ -107,4 +107,7 @@ button {
         height: 150px;
         transform: translate(-50%, -125%);
     }
+    .btn{
+        padding: 0.5em 1.5em;
+    }
 }
