@@ -357,7 +357,6 @@ body.dark .home .text{
 }
 
 
-/*メニューをページ下部に固定*/
 #sp-fixed-menu{
     position: fixed;
     width: 100%;
@@ -366,7 +365,6 @@ body.dark .home .text{
     opacity: 0.9;
     z-index: 99;
 }
-/*メニューを横並びにする*/
 #sp-fixed-menu ul{
     display: flex;
     list-style: none;
@@ -383,7 +381,6 @@ body.dark .home .text{
     font-size: 14px;
     border-right: 1px solid #fff;
 }
-/*ボタンを調整*/
 #sp-fixed-menu li a{
     color: #fff;
     text-align: center;
@@ -398,7 +395,7 @@ body.dark .home .text{
 .for-sp{
     display:none;
 }
-
+/*--tablet--*/
 @media (max-width: 767px) {
     .for-sp{
         display:block
