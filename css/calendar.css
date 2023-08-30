@@ -6,7 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e2e1dc;
+  background-color: var(--bg1);
 }
 .home{
   height:0;
@@ -17,9 +17,8 @@ body {
   padding: 5px;
   color: #fff;
   display: flex;
-
   border-radius: 10px;
-  background-color: #373c4f;
+  background-color: var(--bg2);
 }
 .left {
   width: 60%;
@@ -33,7 +32,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: #878895;
+  color: var(--main-text);
   border-radius: 5px;
   background-color: #fff;
 }
@@ -93,19 +92,19 @@ body {
   justify-content: center;
   cursor: pointer;
   color: var(--theme);
-  border: 1px solid #f5f5f5;
+  border: 1px solid var(--sub-text1);
 }
 .calendar .days .day:nth-child(7n + 1) {
-  border-left: 2px solid #f5f5f5;
+  border-left: 2px solid var(--sub-text1);
 }
 .calendar .days .day:nth-child(7n) {
-  border-right: 2px solid #f5f5f5;
+  border-right: 2px solid var(--sub-text1);
 }
 .calendar .days .day:nth-child(-n + 7) {
-  border-top: 2px solid #f5f5f5;
+  border-top: 2px solid var(--sub-text1);
 }
 .calendar .days .day:nth-child(n + 29) {
-  border-bottom: 2px solid #f5f5f5;
+  border-bottom: 2px solid var(--sub-text1);
 }
 
 .calendar .days .day:not(.prev-date, .next-date):hover {
@@ -440,9 +439,9 @@ body {
   color: var(--theme);
 }
 
-/* media queries */
 
-@media screen and (max-width: 1000px) {
+/*--tablet--*/
+@media screen and (max-width: 960px) {
   body {
     align-items: flex-start;
   }
@@ -468,7 +467,9 @@ body {
     bottom: 100px;
   }
 }
-@media screen and (max-width: 500px) {
+
+/*--phone--*/
+@media screen and (max-width: 360px) {
   .calendar .month {
     height: 75px;
   }
