@@ -76,14 +76,14 @@ button{
     background: var(--bg2);
 }
 
-/*tablet*/
+/*--tablet--*/
 @media screen and (max-width: 1000px) {
     .todo-app ul li span{
         left: 100%;
     }
 }
 
-/*mobile*/
+/*--mobile--*/
 @media screen and (max-width: 500px) {
     .todo-app{
         margin: 0;
