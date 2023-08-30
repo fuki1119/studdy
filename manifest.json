@@ -1,9 +1,0 @@
-{
-    "name": "STUDDY / すたでぃ",
-    "short_name": "STUDDY",
-    "theme_color": "#d1ee71",
-    "background_color": "#d1ee71",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/"
-}
