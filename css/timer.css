@@ -114,9 +114,6 @@ button {
     .explain{
         font-size: 1px;
     }
-    audio {
-        width: 273px;
-    }
     .mode-img .moon, .mode-img .sun {
         left: 650%;
     }
