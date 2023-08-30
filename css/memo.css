@@ -214,6 +214,8 @@ form button{
   background: var(--theme);
 }
 
+
+/*--mobile--*/
 @media (max-width: 660px){
   .wrapper{
     margin: 15px;
