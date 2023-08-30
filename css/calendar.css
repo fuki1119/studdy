@@ -497,4 +497,13 @@ body {
   .home{
     width: 0;
   }
+  .mode-img .moon, .mode-img .sun{
+    left: 500%;
+  }
+  .add-event{
+    bottom: 80px;
+  }
+  #sp-fixed-menu li{
+    width: 55px;
+  }
 }
