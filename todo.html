@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/todo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>ToDo</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li class="nav-link">
+                        <a href="memo.html">
+                            <div class="memo-logo" alt="メモのロゴ"></div>
+                            <span class="text nav-text">メモ</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="todo.html">
+                            <div class="todo-logo now-logo" alt="タスクのロゴ"></div>
+                            <span class="text nav-text now">タスク</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/">
+                            <div class="timer-logo" alt="タイマーのロゴ"></div>
+                            <span class="text nav-text">タイマー</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="calendar.html">
+                            <div class="calendar-logo" alt="カレンダーのロゴ"></div>
+                            <span class="text nav-text">カレンダー</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="mode-toggle">
+            <div class="mode-img">
+                <img class="sun" src="./img/moon.png">
+                <img class="moon hide" src="./img/sun.png">
+            </div>
+        </div>
+        <div class="todo-app">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="例）勉強">
+                <button onclick="addTask()" class="zoom">追加</button>
+            </div>
+            <ul id="list-container">
+                <!--ここにタスクを追加-->
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div id="sp-fixed-menu" class="for-sp">
+            <ul>
+                <li><a href="memo.html"><div class="calendar-logo" alt="メモのロゴ" title="メモ"></div></a></li>
+                <li><a href="todo.html"><div class="todo-logo now-logo" alt="タスクのロゴ" title="タスク"></div></a></li>
+                <li><a href="/"><div class="timer-logo" alt="タイマーのロゴ" title="タイマー"></div></a></li>
+                <li><a href="calendar.html"><div class="calendar-logo" alt="カレンダーのロゴ" title="カレンダー"></div></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/todo.js"></script>
+
+</body>
+</html>

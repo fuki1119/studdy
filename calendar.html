@@ -1,0 +1,136 @@
+<!--ダークモード実装-->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/calendar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <title>カレンダー</title>
+  </head>
+  <body>
+        <nav class="sidebar">
+        <div class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li class="nav-link">
+                        <a href="memo.html">
+                            <div class="memo-logo" alt="メモのロゴ"></div>
+                            <span class="text nav-text">メモ</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="todo.html">
+                            <div class="todo-logo" alt="タスクのロゴ"></div>
+                            <span class="text nav-text">タスク</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/">
+                            <div class="timer-logo" alt="タイマーのロゴ"></div>
+                            <span class="text nav-text">タイマー</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="calendar.html">
+                            <div class="calendar-logo now-logo" alt="カレンダーのロゴ"></div>
+                            <span class="text nav-text now">カレンダー</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+    <div class="container">
+      <div class="left">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">2023年8月</div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>日</div>
+            <div>月</div>
+            <div>火</div>
+            <div>水</div>
+            <div>木</div>
+            <div>金</div>
+            <div>土</div>
+          </div>
+          <div class="days"></div>
+          <div class="goto-today">
+            <div class="goto">
+              <input type="text" placeholder="mm/yyyy" class="date-input" />
+              <button class="goto-btn">Go</button>
+            </div>
+            <button class="today-btn">今日</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="today-date">
+          <div class="event-date">2023年8月30日</div>
+          <div class="event-day">水曜日</div>
+        </div>
+        <div class="events"></div>
+        <div class="add-event-wrapper">
+          <div class="add-event-header">
+            <div class="title">予定を追加</div>
+            <i class="fas fa-times close"></i>
+          </div>
+          <div class="add-event-body">
+            <div class="add-event-input">
+              <input type="text" placeholder="タイトル" class="event-name" />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="開始時間"
+                class="event-time-from"
+              />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="終了時間"
+                class="event-time-to"
+              />
+            </div>
+          </div>
+          <div class="add-event-footer">
+            <button class="add-event-btn">追加</button>
+          </div>
+        </div>
+      </div>
+      <button class="add-event">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+    </section>
+    <footer>
+        <div id="sp-fixed-menu" class="for-sp">
+            <ul>
+                <li><a href="memo.html"><div class="calendar-logo" alt="メモのロゴ" title="メモ"></div></a></li>
+                <li><a href="todo.html"><div class="todo-logo" alt="タスクのロゴ" title="タスク"></div></a></li>
+                <li><a href="/"><div class="timer-logo" alt="タイマーのロゴ" title="タイマー"></div></a></li>
+                <li><a href="calendar.html"><div class="calendar-logo now-logo" alt="カレンダーのロゴ" title="カレンダー"></div></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/calendar.js"></script>
+  </body>
+</html>
