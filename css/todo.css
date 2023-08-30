@@ -86,4 +86,7 @@ button{
     .todo-app{
         margin: 0;
     }
+    .row{
+        width: 250px;
+    }
 }
