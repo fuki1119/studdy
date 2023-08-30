@@ -217,6 +217,9 @@ form button{
 
 /*--mobile--*/
 @media (max-width: 660px){
+  body{
+    margin-bottom:1000px;
+  }
   .wrapper{
     margin: 15px;
     gap: 15px;
@@ -231,4 +234,5 @@ form button{
   .wrapper li{
     width: 250px;
     height: 250px;
+  }
 }
