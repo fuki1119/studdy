@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   color: var(--main-text);
   border-radius: 5px;
-  background-color: #fff;
+  background-color: var(--bg2);
 }
 /* set after behind the main element */
 .calendar .month {
