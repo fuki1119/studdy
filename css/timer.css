@@ -116,4 +116,10 @@ button {
     audio {
         width: 273px;
     }
+    .mode-img .moon, .mode-img .sun {
+        left: 650%;
+    }
+    .h3{
+        display: none;
+    }
 }
