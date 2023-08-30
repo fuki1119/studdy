@@ -111,8 +111,8 @@ button {
     .btn{
         padding: 0.5em 1.5em;
     }
-    .small{
-        font-size: 3px;
+    .explain{
+        font-size: 1px;
     }
     audio {
         width: 273px;
