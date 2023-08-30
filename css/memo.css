@@ -226,4 +226,7 @@ form button{
   .bottom-content .settings i{
     font-size: 17px;
   }
+  .wrapper li{
+    width: 250px;
+    height: 250px;
 }
