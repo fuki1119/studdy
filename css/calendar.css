@@ -257,7 +257,7 @@ body {
   padding: 0 20px;
   padding-left: 50px;
   color: #fff;
-  background: linear-gradient(90deg, var(--sub-text1), transparent);
+  background: var(--bg2);
   cursor: pointer;
 }
 /* even event */
