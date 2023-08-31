@@ -265,7 +265,7 @@ body {
   background: transparent;
 }
 .events .event:hover {
-  background: linear-gradient(90deg, var(--theme), transparent);
+  background: var(--sub-text2);
 }
 .events .event .title {
   display: flex;
@@ -306,7 +306,7 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0.3;
-  color: var(--theme);
+  color: var(--main-text);
   transform: translateY(-50%);
 }
 .events .event:hover::after {
