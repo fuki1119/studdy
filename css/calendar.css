@@ -496,7 +496,6 @@ body {
   }
   .right .today-date {
     padding: 20px;
-    display: flex;
     margin-bottom:30px;
   }
   .calendar .month {
@@ -515,6 +514,9 @@ body {
   }
   .add-event{
     bottom: 80px;
+  }
+  .event-day{
+    display: none;
   }
 
 }
