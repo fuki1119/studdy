@@ -18,7 +18,7 @@ body {
   color: #fff;
   display: flex;
   border-radius: 10px;
-  background-color: var(--theme);
+  background-color: var(--main-text);
 }
 .left {
   width: 60%;
