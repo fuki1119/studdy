@@ -84,6 +84,12 @@ button {
     z-index: 10000;
     background-color: #76A778;
 }
+.explain{
+    color: var(--sub-text1);
+}
+.bgm{
+    color: var(--main-text);
+}
 
 
 /*--mobile--*/
@@ -113,13 +119,11 @@ button {
     }
     .explain{
         font-size: 1px;
-        color: var(--sub-text1);
     }
     .mode-img .moon, .mode-img .sun {
         left: 650%;
     }
     .bgm{
         display: none;
-        color: var(--main-text);
     }
 }
