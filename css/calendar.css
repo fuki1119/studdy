@@ -18,7 +18,7 @@ body {
   color: #fff;
   display: flex;
   border-radius: 10px;
-  background-color: var(--main-text);
+  background-color: var(--bg1);
 }
 .left {
   width: 60%;
@@ -229,6 +229,7 @@ body {
 .right .today-date .event-day {
   font-size: 2rem;
   font-weight: 500;
+  color: var(--main-text);
 }
 .right .today-date .event-date {
   font-size: 1rem;
@@ -466,6 +467,15 @@ body {
   .add-event-wrapper {
     bottom: 100px;
   }
+  .calendar .days .day {
+    height: 50px;
+    font-size: 0.8rem;
+  }
+  #sp-fixed-menu li{
+    width: 15%;
+    right: 35%;
+    position: relative;
+  }
 }
 
 /*--mobile--*/
@@ -477,7 +487,7 @@ body {
     height: 50px;
   }
   .calendar .days .day {
-    height: 40px;
+    height: 50px;
     font-size: 0.8rem;
   }
   .calendar .days .day.active,
@@ -496,7 +506,7 @@ body {
     margin-bottom: 50px;
   }
   .home{
-    width: 0;
+    position: static;
   }
   .mode-img .moon, .mode-img .sun{
     left: 500%;
@@ -504,7 +514,5 @@ body {
   .add-event{
     bottom: 80px;
   }
-  #sp-fixed-menu li{
-    width: 55px;
-  }
+
 }

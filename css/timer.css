@@ -5,7 +5,7 @@
     width: min(90%, 500px);
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 70%;
     left: 50%;
     padding: 4em 2em;
     border-radius: 100%;
@@ -90,7 +90,10 @@ button {
 .bgm{
     color: var(--main-text);
 }
-
+#bgm{
+    margin: 0;
+    padding: 0;
+}
 
 /*--mobile--*/
 @media screen and (max-width: 500px) {
@@ -118,10 +121,10 @@ button {
         padding: 0.5em 1.5em;
     }
     .explain{
-        font-size: 1px;
+        font-size: 4px;
     }
     .mode-img .moon, .mode-img .sun {
-        left: 650%;
+        left: 720%;
     }
     .bgm{
         display: none;
