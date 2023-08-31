@@ -476,6 +476,9 @@ body {
     right: 35%;
     position: relative;
   }
+  .event-day{
+    display: none;
+  }
 }
 
 /*--mobile--*/
